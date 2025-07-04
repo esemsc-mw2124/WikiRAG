@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+# Project secrets
+.env
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# macOS
+.DS_Store
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# uv
+uv.lock
+
+# LangChain/FAISS-generated
+wikirag/index/
+
+# Optionally ignore raw data (if large or generated)
+# wikirag/data/*.txt
+
+# Build artifacts
+dist/
+build/

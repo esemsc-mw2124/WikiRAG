@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wikirag"
+version = "0.1.0"
+description = "A RAG system that retrieves Wikipedia articles"
+readme = "README.md"
+authors = [
+    { name="Miles Weberman", email="webermanmiles@gmail.com" }
+]
+dependencies = [
+    "chromadb>=1.0.15",
+    "faiss-cpu>=1.11.0",
+    "langchain>=0.3.26",
+    "langchain-community>=0.3.27",
+    "langchain-openai>=0.3.27",
+    "openai>=1.93.0",
+    "python-dotenv>=1.1.1",
+    "tiktoken>=0.9.0",
+    "wikipedia>=1.4.0",
+]
+
+[project.scripts]
+wikirag = "wikirag.cli:main" 
+
+[tool.setuptools.packages.find]
+where = ["wikirag"]
