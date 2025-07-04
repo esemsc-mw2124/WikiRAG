@@ -1,4 +1,4 @@
-# cikirag
+# WikiRAG
 
 A simple RAG system that retrieves information from Wikipedia articles.
 
@@ -14,4 +14,9 @@ cd WikiRAG
 
 # Install dependencies and create virtual environment
 uv sync
+```
+Then, in the root of the repository create a `.env` file that contains an OpenAI API key:
+```
+OPENAI_API_KEY=sk-xxxxxxxxxxx[...]
+```
 
