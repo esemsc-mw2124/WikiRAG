@@ -1,0 +1,1 @@
+from .wikipedia_parser import save_article_to_txt

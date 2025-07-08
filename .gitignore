@@ -26,8 +26,9 @@ venv/
 # uv
 uv.lock
 
-# LangChain/FAISS-generated
+# RAG genereated
 wikirag/index/
+wikirag/data/
 
 # Optionally ignore raw data (if large or generated)
 # wikirag/data/*.txt

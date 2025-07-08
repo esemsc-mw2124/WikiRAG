@@ -2,7 +2,7 @@ from rag_pipeline.config import DATA_DIR, INDEX_DIR
 from rag_pipeline.document_loader import load_and_split
 from rag_pipeline.vectorstore import get_vectorstore
 from rag_pipeline.qa_engine import create_qa_chain, create_conversational_qa_chain
-from wikipedia_parser import save_article_to_txt
+from wikirag.utils.wikipedia_parser import save_article_to_txt
 
 from typing import List, Union
 
